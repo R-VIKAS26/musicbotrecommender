@@ -1,3 +1,6 @@
+import base64
+
+
 def get_spotify_token():
     url = 'https://accounts.spotify.com/api/token'
     headers = {
